@@ -1,0 +1,39 @@
+{
+    "name": "dronezzzko/guzzle-simple-circuit-breaker",
+    "type": "library",
+    "description": "An implementation of the Circuit Breaker pattern for Guzzle",
+    "keywords": [
+        "circuit breaker",
+        "guzzle",
+        "http",
+        "HTTP client"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Gadyukov",
+            "email": "andrey.gadyukov@gmail.com",
+            "homepage": "https://github.com/DroneZzZko"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7",
+        "desarrolla2/cache": "^3",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "symfony/cache": "^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dronezzzko\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dronezzzko\\Tests\\": "tests/"
+        }
+    }
+}
