@@ -1,4 +1,4 @@
-# guzzle-simple-circuit-breaker
+# Guzzle Simple Circuit Breaker Middleware
 An implementation of the Circuit Breaker pattern for Guzzle that prevents sending failed requests in a row.  
 
 ## How To Use
