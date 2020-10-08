@@ -1,5 +1,5 @@
 # guzzle-simple-circuit-breaker
-An implementation of the Circuit Breaker pattern for Guzzle
+An implementation of the Circuit Breaker pattern for Guzzle that prevents sending failed requests in a row.  
 
 ## How To Use
 ```php
