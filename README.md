@@ -1,7 +1,13 @@
 # Guzzle Simple Circuit Breaker Middleware
 An implementation of the Circuit Breaker pattern for Guzzle that prevents sending failed requests in a row.  
 
-## How To Use
+### How To Install
+```bash
+composer require dronezzzko/guzzle-simple-circuit-breaker
+```
+
+
+### How To Use
 ```php
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\CurlHandler;
