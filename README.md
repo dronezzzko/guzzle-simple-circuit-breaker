@@ -10,6 +10,6 @@ use GuzzleHttp\Client;
 use Dronezzzko\SimpleCircuitBreakerMiddleware;
 
 $stack = HandlerStack::create();
-$stack->push(SimpleCircuitBreakerMiddleware::factory());
+$stack->push(SimpleCircuitBreakerMiddleware::factory($cache));
 $client = new Client(['handler' => $stack]);
 ```
