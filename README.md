@@ -1,5 +1,5 @@
 # Guzzle Simple Circuit Breaker Middleware
-An implementation of the Circuit Breaker pattern for Guzzle that prevents sending failed requests in a row.  
+Implementation of the [Circuit Breaker](https://martinfowler.com/bliki/CircuitBreaker.html) pattern for Guzzle that prevents sending failed requests in a row.  
 
 ### How To Install
 ```bash
